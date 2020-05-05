@@ -1,4 +1,4 @@
-node{
+node('CentOS6'){
     stage('构建') 
     {
         echo "build"
@@ -7,7 +7,8 @@ node{
 	{
         echo "Test"
         //bat label: '', script: 'robot -P . test.robot'
-        bat 'robot -P . test.robot'
+        //bat 'robot -P . test.robot'
+		sh 'echo case001>>suite.txt'
     }
 	stage('部署')
 	{

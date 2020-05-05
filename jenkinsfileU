@@ -16,7 +16,7 @@ node{
     stage('验收')
 	{
         echo "test"
-		mail bcc: '', body: '测试pipeline', cc: '', from: '17621977178@163.com', replyTo: '', subject: '测试pipeline', to: '3157716526@qq.com'
+		//mail bcc: '', body: '测试pipeline', cc: '', from: '17621977178@163.com', replyTo: '', subject: '测试pipeline', to: '3157716526@qq.com'
     }
 }
     
