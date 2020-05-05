@@ -1,4 +1,4 @@
-node('CentOS6'){
+node(){
     stage('构建') 
     {
 		checkout scm
